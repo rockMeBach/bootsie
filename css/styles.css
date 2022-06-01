@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #f5e6ca;
+  padding-bottom: 4%;
+}
+
+#features{
+  padding: 1% 5% 5% 5%;
+  text-align: center;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #00ead3;
+  padding: 5% 0 5% 0;
+}
+
+#pricing{
+  text-align: center;
+  padding: 5rem;
+}
+
+#pricing > .row{
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-item > h1{
+  width: 50%;
+  margin: auto;
+}
+
+.testimonial-image{
+  margin: 1% auto 2% auto;
+  width: 10%;
+  border-radius: 100px;
+  box-shadow: 0 0 10px black;
+}
+
+.title-text{
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.feature > .fas{
+  color:pink;
+}
+
+.feature > h3{
+  font-weight:bold;
+}
+
+.fas{
+  color: orange;
+}
+
+.feature{
+  margin-top: 5%;
+}
+
+.row{
+  width:100%;
+
+}
+
+.pricing-scheme{
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 2% 10%;
+}
+
+.navbar{
+  padding: 0 0 2rem;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.title-buttons{
+  margin-bottom: 15%;
+  margin-right: 2%;
+}
+
+.mobile-img{
+  margin-top: 0;
+  width: 100%;
+}
+
+
+.card {
+  position:relative;
+}
+
+.card .card-badge {
+  font-size: 10px;
+  position:absolute;
+  top:10px;
+  left:-22px;
+  padding:5px;
+  background:#fb9300;
+  color:white;
+  transform:rotate(-45deg);
+}
+
+.social-icons{
+  cursor: pointer;
+  margin: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.footer{
+  background-color: #f5e6ca;
+  margin: 0;
+  text-align: center;
+}
+
+#contact .jumbotron{
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: 0;
+  text-align: center;
+}
+
+
+#contact .form-control, #contact button{
+  margin-top: 1%;
+  width: 100%;
+}
+
+#contact .row{
+  margin: 0;
+}
+
+#contact .row .col{
+  padding: 0;
+  padding: 0 5px 0 5px;
+}
